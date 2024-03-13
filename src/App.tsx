@@ -1,11 +1,15 @@
 import "./index.css";
-
-function App() {
+import ButtonGradient from "../public/assets/svg/ButtonGradient.jsx";
+import Header from "./components/Header.jsx";
+const App = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden"></div>
+      <Header />
+
+      <ButtonGradient />
     </>
   );
-}
+};
 
 export default App;
