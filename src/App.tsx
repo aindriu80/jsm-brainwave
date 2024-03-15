@@ -1,6 +1,7 @@
 import "./index.css";
-import ButtonGradient from "../public/assets/svg/ButtonGradient.jsx";
-import Header from "./components/Header.jsx";
+import ButtonGradient from "./assets/svg/ButtonGradient";
+import Header from "./components/Header";
+
 const App = () => {
   return (
     <>
