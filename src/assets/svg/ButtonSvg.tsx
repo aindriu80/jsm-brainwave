@@ -1,3 +1,9 @@
+interface ButtonProps {
+  white?: boolean;
+}
+
+// const ButtonSvg: React.FC<ButtonProps> = ({ white }) => (
+
 const ButtonSvg = (white) => (
   <>
     <svg
