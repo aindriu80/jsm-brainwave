@@ -1,24 +1,22 @@
 import ButtonSvg from "../assets/svg/ButtonSvg";
 
-// interface ButtonProps {
-//   className?: string;
-//   href?: string;
-//   onClick?: () => void;
-//   children?: React.ReactNode;
-//   px?: number;
-//    white?: boolean ;
-// }
+interface ButtonProps {
+  className?: string;
+  href?: string;
+  onClick?: () => void;
+  children?: React.ReactNode;
+  px?: number;
+  white?: boolean;
+}
 
-// const Button = ({
-//   className,
-//   href,
-//   onClick,
-//   children,
-//   px,
-//   white,
-// }: ButtonProps) => {
-//
-const Button = ({ className, href, onClick, children, px, white }) => {
+const Button = ({
+  className,
+  href,
+  onClick,
+  children,
+  px,
+  white,
+}: ButtonProps) => {
   const classes = `button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1 ${
     px || "px-7"
   }  ${white ? "text-n-8" : "text-n-1"} ${className || ""}`;
